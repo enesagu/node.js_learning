@@ -3,9 +3,14 @@ import express from "express"
 const app = express()
 const port = 3000
 
+// ejs template engine
+app.set('view engine','ejs')
 
-app.get("/", (req, res) => {
-    res.send("Index Page")
+// static files middleware
+app.use(express.static('public'));
+
+app.get("/", (req, res) => {  //forwarding index page
+    res.render("index")
 })
 
 app.listen(port, ()=> {
