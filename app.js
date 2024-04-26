@@ -13,6 +13,10 @@ app.get("/", (req, res) => {  //forwarding index page
     res.render("index")
 })
 
+app.get("/about", (req, res) => {  //forwarding index page
+    res.render("about")
+})
+
 app.listen(port, ()=> {
     console.log(`Application running on port: ${port}`)
 })
