@@ -1,0 +1,22 @@
+{
+  "name": "node.js_learning",
+  "version": "1.0.0",
+  "description": "learning project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enesagu/node.js_learning.git"
+  },
+  "author": "Enes AGU",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enesagu/node.js_learning/issues"
+  },
+  "homepage": "https://github.com/enesagu/node.js_learning#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
