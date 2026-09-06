@@ -19,7 +19,7 @@
   "homepage": "https://github.com/enesagu/node.js_learning#readme",
   "dependencies": {
     "ejs": "^3.1.10",
-    "express": "^4.19.2"
+    "express": "^4.22.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
